@@ -42,11 +42,11 @@ global pinval
 pinval = sys.argv[1] #enter pincode of area to scan
 
 global gmail_user
-gmail_user = <sender-gmail-id>
+gmail_user = 'user@email.com'
 global gmail_password
-gmail_password = <sender-gmail-password>
+gmail_password = 'password'
 global sent_from
-sent_from = gmail_user
+sent_from = 'sender@email.com'
 global send_to
 send_to = sys.argv[2].split(',') #enter comma separated gmail-id's to send mail to
 global subject
